@@ -143,7 +143,7 @@ const AdditionalInfo = () => {
                             </div>
                           </div>
                           <div className="userDate">
-                            <p>April 06, 2023</p>
+                            <p>April 06, 2026</p>
                           </div>
                         </div>
                         <div
@@ -174,7 +174,7 @@ const AdditionalInfo = () => {
                             </div>
                           </div>
                           <div className="userDate">
-                            <p>April 12, 2023</p>
+                            <p>April 12, 2026</p>
                           </div>
                         </div>
                         <div className="userReviewBottomContent">

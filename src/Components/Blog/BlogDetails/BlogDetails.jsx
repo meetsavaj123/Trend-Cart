@@ -28,7 +28,7 @@ const BlogDetails = () => {
             <h2>5 Tips to Increase Your Online Sales</h2>
             <div className="blogDetailsMetaData">
               <span>by admin</span>
-              <span>May 19, 2023</span>
+              <span>May 19, 2026</span>
               <span>Trends</span>
             </div>
           </div>

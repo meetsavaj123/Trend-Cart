@@ -9,7 +9,7 @@ const ContactPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(
-      `Thank You ${name} for Contacting Us. We will Get Back to You Soon.\n\nYour Mail Id - ${email}.\nYour Message is - ${message}`
+      `Thank You ${name} for Contacting Us. We will Get Back to You Soon.\n\nYour Mail Id - ${email}.\nYour Message is - ${message}`,
     );
     setname("");
     setEmail("");
@@ -21,10 +21,20 @@ const ContactPage = () => {
       <div className="contactSection">
         <h2>Contact Us</h2>
         <div className="contactMap">
-          <iframe
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49206.16593395236!2d2.5776979486328124!3d39.57346430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793280de39c05%3A0x85d5f5ea839d6c2a!2sTrend Cart!5e0!3m2!1sen!2sin!4v1708798894132!5m2!1sen!2sin"
             width="800"
             height="600"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Trend Cartmap"
+          ></iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.285790879414!2d72.82664567525292!3d19.051168252751506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c938b7a970b1%3A0x6d60cb8bda23e8c!2sA%20-%20791%2C%20Bandra%20Reclamation%20Rd%2C%20opp.%20MET%20College%2C%20Mount%20Mary%2C%20Bandra%20West%2C%20Mumbai%2C%20Maharashtra%20400050!5e0!3m2!1sen!2sin!4v1782153317613!5m2!1sen!2sin"
+            width="800"
+            height="650"
+            style={{ border: "1px solid #ccc" }}
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
