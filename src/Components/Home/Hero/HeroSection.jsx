@@ -24,12 +24,17 @@ const HeroSection = () => {
     <>
       <div className="heroMain">
         <div className="sectionleft">
-          <p>New Trend</p>
-          <h1>Summer Sale Stylish</h1>
-          <span>Limited Time Offer - Up to 60% off & Free Shipping</span>
+          <p>TRENDCART 2026</p>
+
+          <h1>Style That Defines You</h1>
+
+          <span>
+            Explore the latest trends in fashion with exclusive deals and free
+            shipping.
+          </span>
           <div className="heroLink">
             <Link to="/shop" onClick={scrollToTop}>
-              <h5>Discover More</h5>
+              <h5>Explore Collection</h5>
             </Link>
           </div>
         </div>
@@ -70,8 +75,8 @@ const HeroSection = () => {
               style={{ backgroundColor: "#726DE7" }}
             ></button>
             <button
-              onClick={() => changeColor("red")}
-              style={{ backgroundColor: "red" }}
+              onClick={() => changeColor("#2563EB")}
+              style={{ backgroundColor: "#2563EB" }}
             ></button>
           </div>
         </div>

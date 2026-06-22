@@ -34,11 +34,13 @@ const Footer = () => {
               <img src={logo} alt="Trend Cart logo" />
             </div>
 
-            <p>1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
-
+            <p>Bhavnagar, Gujarat, India</p>
             <div className="footer_address">
-              <strong> sale@Trend Cart.com </strong>
-              <strong> +1 246-345-0695 </strong>
+              <strong>
+                {" "}
+                <p>contact@trendcart.com</p>{" "}
+              </strong>
+              <strong> Customer Support Available 24/7 </strong>
             </div>
 
             <div className="social_links">
@@ -141,12 +143,12 @@ const Footer = () => {
           <p>
             © {getCurrentYear()} Trend Cart. All Rights Reserved | Made By{" "}
             <a
-              href="https://github.com/shakti177"
+              href="https://github.com/meetsavaj123"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#C22928", textDecoration: "none" }}
             >
-              Shakti Tamrakar
+              Meet Savaj
             </a>{" "}
             with ❤️
           </p>
