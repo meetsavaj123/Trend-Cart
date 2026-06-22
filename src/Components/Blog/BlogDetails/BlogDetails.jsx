@@ -38,55 +38,55 @@ const BlogDetails = () => {
           <div className="blogDetailsContent">
             <p>
               Increasing online sales requires a clear strategy: optimize
-              product listings, improve site speed, provide compelling
-              visuals, and offer straightforward checkout options. Focus on
-              building trust through detailed product information and social
-              proof.
+              product listings, improve site speed, provide compelling visuals,
+              and offer straightforward checkout options. Focus on building
+              trust through detailed product information and social proof.
             </p>
-            <h5>Sed do eiusmod tempor incididunt ut labore</h5>
+            <h5>
+              Delivering Quality Products with Exceptional Shopping Experience
+            </h5>
             <p>
-              Saw wherein fruitful good days image them, midst, waters upon,
-              saw. Seas lights seasons. Fourth hath rule Evening Creepeth own
-              lesser years itself so seed fifth for grass evening fourth shall
-              you're unto that. Had. Female replenish for yielding so saw all
-              one to yielding grass you'll air sea it, open waters subdue, hath.
-              Brought second Made. Be. Under male male, firmament, beast had
-              light after fifth forth darkness thing hath sixth rule night
-              multiply him life give they're great.
+              At Trend Cart, we believe shopping should be simple, enjoyable,
+              and reliable. Every product is carefully selected to meet high
+              standards of quality, style, and durability. Whether you're
+              looking for everyday essentials or the latest fashion trends, our
+              collection is designed to provide outstanding value while ensuring
+              a smooth and satisfying shopping experience.
             </p>
             <div className="blogDetailsContentBullets">
               <div className="blogDetailsContentBulletscontent">
-                <h5>Why choose product?</h5>
+                <h5>Why Choose Our Products?</h5>
                 <p>
                   <ul>
-                    <li>Creat by cotton fibric with soft and smooth</li>
                     <li>
-                      Simple, Configurable (e.g. size, color, etc.), bundled
+                      Crafted from premium-quality materials for maximum
+                      comfort.
                     </li>
-                    <li>Downloadable/Digital Products, Virtual Products</li>
+                    <li> Durable, stylish, and designed for everyday use.</li>
+                    <li> Affordable pricing with uncompromised quality.</li>
+                    <li> Fast delivery and secure packaging.</li>
+                    <li>Easy returns and responsive customer support</li>
                   </ul>
                 </p>
               </div>
               <div className="blogDetailsContentBulletscontent">
-                <h5>Sample Number List</h5>
+                <h5>Product Highlights</h5>
                 <p>
                   <ol>
-                    <li>Creat by cotton fibric with soft and smooth</li>
-                    <li>
-                      Simple, Configurable (e.g. size, color, etc.), bundled
-                    </li>
-                    <li>Downloadable/Digital Products, Virtual Products</li>
+                    <li>Premium materials for long-lasting durability.</li>
+                    <li>Comfortable fit with modern, stylish designs.</li>
+                    <li>Wide range of sizes and color options.</li>
                   </ol>
                 </p>
               </div>
             </div>
             <p>
-              She'd years darkness days. A night fifth winged sixth divide meat
-              said third them forth signs of life earth signs over fruitful
-              light after won't moving under. Thing yielding upon seed. Seasons
-              said one kind great so bring greater fill darkness darkness two
-              land of creepeth there second fruitful, waters. Make don't void
-              years Gathering gathering divide fill.
+              Our commitment goes beyond selling products—we strive to deliver
+              value at every step of your shopping journey. From carefully
+              curated collections to secure transactions and timely delivery, we
+              focus on creating a seamless experience that keeps customers
+              coming back. Your satisfaction is our highest priority, and we're
+              dedicated to making every purchase worthwhile.
             </p>
           </div>
           <div className="blogDetailsContentImg">
@@ -95,18 +95,19 @@ const BlogDetails = () => {
           </div>
           <div className="blogDetailsContent">
             <p>
-              To convert visitors into customers, highlight product benefits,
-              use high-quality images, and include clear calls-to-action. Use
-              customer reviews and secure payment badges to reduce hesitation
-              at checkout.
+              Every product at Trend Cart is carefully selected to combine
+              quality, style, and affordability. We provide detailed
+              descriptions, high-resolution images, secure payment options, and
+              fast shipping to ensure a smooth and trustworthy shopping
+              experience from start to finish.
             </p>
             <p>
-              She'd years darkness days. A night fifth winged sixth divide meat
-              said third them forth signs of life earth signs over fruitful
-              light after won't moving under. Thing yielding upon seed. Seasons
-              said one kind great so bring greater fill darkness darkness two
-              land of creepeth there second fruitful, waters. Make don't void
-              years Gathering gathering divide fill.
+              Customer satisfaction is our top priority. We continuously improve
+              our products and services based on customer feedback to provide
+              the best online shopping experience. Whether you're searching for
+              the latest fashion trends or everyday essentials, Trend Cart is
+              committed to delivering quality products, competitive prices, and
+              reliable customer support you can trust.
             </p>
           </div>
           <div className="share-buttons">
