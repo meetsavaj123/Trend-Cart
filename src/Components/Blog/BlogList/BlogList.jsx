@@ -47,9 +47,10 @@ const BlogList = () => {
                 </div>
                 <div className="blogPostContentDescription">
                   <p>
-                    Midst one brought greater also morning green saying had
-                    good. Open stars day let over gathered, grass face one every
-                    light of under.
+                    This image is for illustrative purposes and showcases the
+                    design, layout, or feature being discussed. It provides a
+                    visual representation to enhance understanding and improve
+                    the overall user experience.
                   </p>
                 </div>
                 <div className="blogPostContentReadMore">
