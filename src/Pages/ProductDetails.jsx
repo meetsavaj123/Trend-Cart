@@ -9,6 +9,7 @@ const ProductDetails = () => {
       <Product />
       <AdditionalInfo />
       <RelatedProducts />
+      <p> m1</p>
       
     </>
   );
