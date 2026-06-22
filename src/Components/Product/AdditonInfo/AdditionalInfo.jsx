@@ -46,20 +46,12 @@ const AdditionalInfo = () => {
             {activeTab === "aiTab1" && (
               <div className="aiTabDescription">
                 <div className="descriptionPara">
-                  <h3>Sed do eiusmod tempor incididunt ut labore</h3>
+                  <h3>Product Overview</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum. Sed ut perspiciatis
-                    unde omnis iste natus error sit voluptatem accusantium
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                    illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo.
+                    This jacket offers a balance of lightweight insulation and
+                    everyday functionality. It is crafted with durable outer
+                    fabric, a warm fill, and a comfortable lining to keep you
+                    warm in cool weather while maintaining a sleek silhouette.
                   </p>
                 </div>
                 <div className="descriptionParaGrid">
@@ -158,12 +150,10 @@ const AdditionalInfo = () => {
                           className="userReviewBottomContent"
                           style={{ marginBottom: "30px" }}
                         >
-                          <p>
-                            Nam libero tempore, cum soluta nobis est eligendi
-                            optio cumque nihil impedit quo minus id quod maxime
-                            placeat facere possimus, omnis voluptas assumenda
-                            est…
-                          </p>
+                            <p>
+                              Great jacket — warm, lightweight, and fits true to
+                              size. Highly recommend for everyday wear.
+                            </p>
                         </div>
                       </div>
                     </div>
@@ -188,12 +178,10 @@ const AdditionalInfo = () => {
                           </div>
                         </div>
                         <div className="userReviewBottomContent">
-                          <p>
-                            Nam libero tempore, cum soluta nobis est eligendi
-                            optio cumque nihil impedit quo minus id quod maxime
-                            placeat facere possimus, omnis voluptas assumenda
-                            est…
-                          </p>
+                            <p>
+                              Excellent quality and fast shipping. The material
+                              feels premium and the color matches the photos.
+                            </p>
                         </div>
                       </div>
                     </div>

@@ -37,18 +37,11 @@ const BlogDetails = () => {
           </div>
           <div className="blogDetailsContent">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-              sapien dignissim a elementum. Sociis metus, hendrerit mauris id
-              in. Quis sit sit ultrices tincidunt euismod luctus diam. Turpis
-              sodales orci etiam phasellus lacus id leo. Amet turpis nunc, nulla
-              massa est viverra interdum. Praesent auctor nulla morbi non
-              posuere mattis. Arcu eu id maecenas cras. Eget fames tincidunt
-              leo, sed vitae, pretium interdum. Non massa, imperdiet nunc sit
-              sapien. Tempor lectus ornare quis mi vel. Nibh euismod donec elit
-              posuere lobortis consequat faucibus aliquam metus. Ornare
-              consequat, vulputate sit maecenas mauris urna sed fringilla. Urna
-              fermentum iaculis pharetra, maecenas dui nullam nullam rhoncus.
-              Facilisis quis vulputate sem gravida lacus, justo placerat.
+              Increasing online sales requires a clear strategy: optimize
+              product listings, improve site speed, provide compelling
+              visuals, and offer straightforward checkout options. Focus on
+              building trust through detailed product information and social
+              proof.
             </p>
             <h5>Sed do eiusmod tempor incididunt ut labore</h5>
             <p>
@@ -102,18 +95,10 @@ const BlogDetails = () => {
           </div>
           <div className="blogDetailsContent">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-              sapien dignissim a elementum. Sociis metus, hendrerit mauris id
-              in. Quis sit sit ultrices tincidunt euismod luctus diam. Turpis
-              sodales orci etiam phasellus lacus id leo. Amet turpis nunc, nulla
-              massa est viverra interdum. Praesent auctor nulla morbi non
-              posuere mattis. Arcu eu id maecenas cras. Eget fames tincidunt
-              leo, sed vitae, pretium interdum. Non massa, imperdiet nunc sit
-              sapien. Tempor lectus ornare quis mi vel. Nibh euismod donec elit
-              posuere lobortis consequat faucibus aliquam metus. Ornare
-              consequat, vulputate sit maecenas mauris urna sed fringilla. Urna
-              fermentum iaculis pharetra, maecenas dui nullam nullam rhoncus.
-              Facilisis quis vulputate sem gravida lacus, justo placerat.
+              To convert visitors into customers, highlight product benefits,
+              use high-quality images, and include clear calls-to-action. Use
+              customer reviews and secure payment badges to reduce hesitation
+              at checkout.
             </p>
             <p>
               She'd years darkness days. A night fifth winged sixth divide meat

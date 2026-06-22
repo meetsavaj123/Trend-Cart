@@ -186,10 +186,9 @@ const Product = () => {
             </div>
             <div className="productDescription">
               <p>
-                Phasellus sed volutpat orci. Fusce eget lore mauris vehicula
-                elementum gravida nec dui. Aenean aliquam varius ipsum, non
-                ultricies tellus sodales eu. Donec dignissim viverra nunc, ut
-                aliquet magna posuere eget.
+                A lightweight, water-resistant puffer jacket designed for
+                warmth and comfort. Features a detachable hood, insulating
+                fill, and zippered pockets—perfect for everyday wear.
               </p>
             </div>
             <div className="productSizeColor">

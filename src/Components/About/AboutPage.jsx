@@ -22,15 +22,13 @@ const AboutPage = () => {
   return (
     <>
       <div className="aboutSection">
-        <h2>About Uomo</h2>
+        <h2>About Trend Cart</h2>
         <img src={about1} alt="" />
         <div className="aboutContent">
           <h3>Our Story</h3>
           <h4>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            We curate thoughtfully designed collections that reflect global
+            trends while prioritizing quality and sustainability.
           </h4>
           <p>
             Saw wherein fruitful good days image them, midst, waters upon, saw.
@@ -46,15 +44,15 @@ const AboutPage = () => {
             <div className="contentBox">
               <h5>Our Mission</h5>
               <p>
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
+                To deliver stylish, high-quality apparel that is accessible
+                and responsibly sourced for everyday wardrobes.
               </p>
             </div>
             <div className="contentBox">
               <h5>Our Vision</h5>
               <p>
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
+                To be a trusted fashion destination recognized for innovation,
+                sustainability, and exceptional customer experience.
               </p>
             </div>
           </div>
@@ -63,14 +61,12 @@ const AboutPage = () => {
               <img src={about2} alt="" />
             </div>
             <div className="textContent">
-              <h5>The Company</h5>
+              <h3>The Company</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-                sapien dignissim a elementum. Sociis metus, hendrerit mauris id
-                in. Quis sit sit ultrices tincidunt euismod luctus diam. Turpis
-                sodales orci etiam phasellus lacus id leo. Amet turpis nunc,
-                nulla massa est viverra interdum. Praesent auctor nulla morbi
-                non posuere mattis. Arcu eu id maecenas cras.
+                Trend Cart is a modern fashion retailer dedicated to offering
+                curated collections that blend style and quality. We work with
+                trusted designers and partners to bring versatile pieces that
+                suit everyday life while promoting responsible production.
               </p>
             </div>
           </div>

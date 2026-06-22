@@ -551,10 +551,9 @@ const ShoppingCart = () => {
                       <div className="checkoutPaymentMethod">
                         <span>Check Payments</span>
                         <p>
-                          Phasellus sed volutpat orci. Fusce eget lore mauris
-                          vehicula elementum gravida nec dui. Aenean aliquam
-                          varius ipsum, non ultricies tellus sodales eu. Donec
-                          dignissim viverra nunc, ut aliquet magna posuere eget.
+                          To pay by check, please mail your check to our
+                          business address. Orders will be processed after the
+                          check has cleared.
                         </p>
                       </div>
                     </label>
@@ -568,10 +567,9 @@ const ShoppingCart = () => {
                       <div className="checkoutPaymentMethod">
                         <span>Cash on delivery</span>
                         <p>
-                          Phasellus sed volutpat orci. Fusce eget lore mauris
-                          vehicula elementum gravida nec dui. Aenean aliquam
-                          varius ipsum, non ultricies tellus sodales eu. Donec
-                          dignissim viverra nunc, ut aliquet magna posuere eget.
+                          Pay the courier directly when your order is
+                          delivered. Additional fees may apply for cash-on-
+                          delivery orders.
                         </p>
                       </div>
                     </label>
@@ -585,10 +583,9 @@ const ShoppingCart = () => {
                       <div className="checkoutPaymentMethod">
                         <span>Paypal</span>
                         <p>
-                          Phasellus sed volutpat orci. Fusce eget lore mauris
-                          vehicula elementum gravida nec dui. Aenean aliquam
-                          varius ipsum, non ultricies tellus sodales eu. Donec
-                          dignissim viverra nunc, ut aliquet magna posuere eget.
+                          You will be redirected to PayPal to complete a
+                          secure payment. Orders are confirmed once payment is
+                          successfully processed.
                         </p>
                       </div>
                     </label>

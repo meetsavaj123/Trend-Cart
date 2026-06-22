@@ -31,13 +31,13 @@ const Footer = () => {
         <div className="footer__container">
           <div className="footer_left">
             <div className="footer_logo_container">
-              <img src={logo} alt="" Z />
+              <img src={logo} alt="Trend Cart logo" />
             </div>
 
             <p>1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
 
             <div className="footer_address">
-              <strong> sale@uomo.com </strong>
+              <strong> sale@Trend Cart.com </strong>
               <strong> +1 246-345-0695 </strong>
             </div>
 
@@ -139,7 +139,7 @@ const Footer = () => {
         </div>
         <div className="footer_bottom">
           <p>
-            © {getCurrentYear()} Uomo. All Rights Reserved | Made By{" "}
+            © {getCurrentYear()} Trend Cart. All Rights Reserved | Made By{" "}
             <a
               href="https://github.com/shakti177"
               target="_blank"
@@ -153,11 +153,11 @@ const Footer = () => {
           <div className="footerLangCurrency">
             <div className="footerLang">
               <p>Language</p>
-              <select name="language" id="language">
-                <option value="english">United States | English</option>
-                <option value="Hindi">Hindi</option>
-                <option value="Germany">Germany</option>
-                <option value="French">French</option>
+              <select name="language" id="language" defaultValue="en">
+                <option value="en">English (United States)</option>
+                <option value="hi">Hindi (India)</option>
+                <option value="de">German</option>
+                <option value="fr">French</option>
               </select>
             </div>
             <div className="footerCurrency">

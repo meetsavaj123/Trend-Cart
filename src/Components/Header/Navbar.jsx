@@ -26,8 +26,9 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-    document.body.style.overflow = mobileMenuOpen ? "auto" : "hidden";
+    const newOpen = !mobileMenuOpen;
+    setMobileMenuOpen(newOpen);
+    document.body.style.overflow = newOpen ? "hidden" : "auto";
   };
 
   const scrollToTop = () => {
@@ -78,13 +79,14 @@ const Navbar = () => {
           </div>
         </div>
         <div className="iconContainer">
-          <FiSearch size={22} onClick={scrollToTop} />
+          <FiSearch size={22} onClick={scrollToTop} aria-label="Search" />
           <Link to="/loginSignUp" onClick={scrollToTop}>
             <FaRegUser size={22} />
           </Link>
           <Link to="/cart" onClick={scrollToTop}>
             <Badge
-              badgeContent={cart.items.length === 0 ? "0" : cart.items.length}
+              badgeContent={cart.items.length}
+              showZero={false}
               color="primary"
               anchorOrigin={{
                 vertical: "bottom",
@@ -103,18 +105,36 @@ const Navbar = () => {
       <nav>
         <div className="mobile-nav">
           {mobileMenuOpen ? (
-            <MdOutlineClose size={22} onClick={toggleMobileMenu} />
+            <MdOutlineClose
+              size={22}
+              onClick={toggleMobileMenu}
+              aria-label="Close menu"
+            />
           ) : (
-            <RiMenu2Line size={22} onClick={toggleMobileMenu} />
+            <RiMenu2Line
+              size={22}
+              onClick={toggleMobileMenu}
+              aria-label="Open menu"
+            />
           )}
           <div className="logoContainer">
-            <Link to="/">
-              <img src={logo} alt="Logo" />
+            <Link
+              to="/"
+              onClick={() => {
+                scrollToTop();
+                if (mobileMenuOpen) {
+                  setMobileMenuOpen(false);
+                  document.body.style.overflow = "auto";
+                }
+              }}
+            >
+              <img src={logo} alt="Trend Cart logo" />
             </Link>
           </div>
           <Link to="/cart">
             <Badge
-              badgeContent={cart.items.length === 0 ? "0" : cart.items.length}
+              badgeContent={cart.items.length}
+              showZero={false}
               color="primary"
               anchorOrigin={{
                 vertical: "bottom",
@@ -176,11 +196,11 @@ const Navbar = () => {
             <div className="mobile-menuFooterLangCurrency">
               <div className="mobile-menuFooterLang">
                 <p>Language</p>
-                <select name="language" id="language">
-                  <option value="english">United States | English</option>
-                  <option value="Hindi">Hindi</option>
-                  <option value="Germany">Germany</option>
-                  <option value="French">French</option>
+                <select name="language" id="language" defaultValue="en">
+                  <option value="en">English (United States)</option>
+                  <option value="hi">Hindi (India)</option>
+                  <option value="de">German</option>
+                  <option value="fr">French</option>
                 </select>
               </div>
               <div className="mobile-menuFooterCurrency">

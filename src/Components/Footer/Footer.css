@@ -26,6 +26,10 @@
 
 .footer_logo_container img {
   background: none !important;
+  height: 129px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .footer_left p {
@@ -244,6 +248,12 @@
   }
   .footerLangCurrency {
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer_logo_container img {
+    height: 40px;
   }
 }
 
