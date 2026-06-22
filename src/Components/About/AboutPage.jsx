@@ -27,32 +27,35 @@ const AboutPage = () => {
         <div className="aboutContent">
           <h3>Our Story</h3>
           <h4>
-            We curate thoughtfully designed collections that reflect global
-            trends while prioritizing quality and sustainability.
+            At Trend Cart, we're passionate about making online shopping simple,
+            stylish, and affordable. Our carefully curated collections combine
+            modern fashion, premium quality, and exceptional value to help every
+            customer shop with confidence.
           </h4>
           <p>
-            Saw wherein fruitful good days image them, midst, waters upon, saw.
-            Seas lights seasons. Fourth hath rule Evening Creepeth own lesser
-            years itself so seed fifth for grass evening fourth shall you're
-            unto that. Had. Female replenish for yielding so saw all one to
-            yielding grass you'll air sea it, open waters subdue, hath. Brought
-            second Made. Be. Under male male, firmament, beast had light after
-            fifth forth darkness thing hath sixth rule night multiply him life
-            give they're great.
+            Trend Cart was founded with a simple vision—to create an online
+            shopping destination where quality meets affordability. From fashion
+            essentials to lifestyle products, every item in our collection is
+            selected with care to ensure durability, style, and customer
+            satisfaction. We continuously improve our platform to provide a
+            fast, secure, and enjoyable shopping experience for everyone.
           </p>
           <div className="content1">
             <div className="contentBox">
               <h5>Our Mission</h5>
               <p>
-                To deliver stylish, high-quality apparel that is accessible
-                and responsibly sourced for everyday wardrobes.
+                To provide customers with high-quality products at affordable
+                prices while delivering an outstanding shopping experience
+                through secure transactions, fast shipping, and exceptional
+                customer service.
               </p>
             </div>
             <div className="contentBox">
               <h5>Our Vision</h5>
               <p>
-                To be a trusted fashion destination recognized for innovation,
-                sustainability, and exceptional customer experience.
+                To become a trusted and leading e-commerce platform known for
+                quality products, customer satisfaction, innovation, and a
+                seamless online shopping experience.
               </p>
             </div>
           </div>
@@ -63,10 +66,13 @@ const AboutPage = () => {
             <div className="textContent">
               <h3>The Company</h3>
               <p>
-                Trend Cart is a modern fashion retailer dedicated to offering
-                curated collections that blend style and quality. We work with
-                trusted designers and partners to bring versatile pieces that
-                suit everyday life while promoting responsible production.
+                Trend Cart is a modern e-commerce platform dedicated to offering
+                premium-quality fashion and lifestyle products at competitive
+                prices. Our goal is to make online shopping convenient, secure,
+                and enjoyable by combining stylish collections, reliable
+                delivery, and responsive customer support. We are committed to
+                building lasting relationships with our customers through trust,
+                quality, and continuous innovation.
               </p>
             </div>
           </div>

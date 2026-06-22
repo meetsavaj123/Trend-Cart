@@ -75,6 +75,10 @@ const BlogDetails = () => {
                   <ol>
                     <li>Premium materials for long-lasting durability.</li>
                     <li>Comfortable fit with modern, stylish designs.</li>
+                    <li>Secure online payments with encrypted checkout.</li>
+                    <li>Fast shipping and reliable customer support.</li>
+                    <li>Hassle-free returns and exchanges.</li>
+
                     <li>Wide range of sizes and color options.</li>
                   </ol>
                 </p>
