@@ -146,7 +146,7 @@ const LimitedEdition = () => {
                     </div>
                     <div className="limitedProductInfo">
                       <div className="lpCategoryWishlist">
-                        <p>Dresses</p>
+                        <p>Items</p>
                         <FiHeart
                           onClick={() => handleWishlistClick(product.productID)}
                           style={{

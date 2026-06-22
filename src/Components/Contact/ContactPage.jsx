@@ -48,13 +48,13 @@ const ContactPage = () => {
             <div className="address">
               <h3>Store in India</h3>
               <p>
-                A-791, A-791, Bandra Reclamation Rd, Mumbai
+                A-791, Bandra Reclamation Rd, Mumbai
                 <br /> Maharashtra
               </p>
               <p>
                 contact@dummymail.com
                 <br />
-                +44 20 7123 4567
+                +91 20 7123 4567
               </p>
             </div>
           </div>
